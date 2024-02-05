@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    height: 25vmin;
+    width: 25vmin;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: rotate(0deg);
+
+}
+
+.arrow.opponent {
+    position: fixed;
+    left: -1000px;
+}
+
+.arrow.red {
+    background-image: url(../img/redArrow.webp);
+    opacity: 1;
+}
+
+.arrow.yellow {
+    background-image: url(../img/yellowArrow.webp);
+    opacity: 1;
+}
